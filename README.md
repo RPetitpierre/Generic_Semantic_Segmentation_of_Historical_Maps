@@ -34,7 +34,23 @@ Keywords: *historical map processing, neural networks, semantic segmentation, fi
 ### Utils
  - This folder contains some custom Python functions used in the above notebooks.
 
-# Additional resources
+## Additional resources
 As mentioned in the article, we used dhSegment-torch for all CNN-based semantic segmentation experiments, training and inference. We invite you to refer to the following Github repository: [dhlab-epfl/dhSegment-torch](https://github.com/dhlab-epfl/dhSegment-torch).
 
+# Dataset
 
+The World and the Paris datasets (*Historical City Maps Semantic Segmentation Dataset*) are published in open-source and can be dowloaded [here](https://zenodo.org/record/5497934):
+
+```
+@misc{petitpierre_historical_2021,
+  author    = {Petitpierre, R{\'{e}}mi},
+  title     = {Historical City Maps Semantic Segmentation Dataset},
+  year      = {2021},
+  howpublished = {\url{https://zenodo.org/record/5497934}},
+  doi       = {10.5281/zenodo.5497934}
+}
+```
+
+# License & Liability
+
+This project is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License](https://creativecommons.org/licenses/by-nc/4.0/deed.en). We do not assume any liability for the use of this code.
