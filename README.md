@@ -1,7 +1,5 @@
 # Generic Semantic Segmentation of Historical Maps - Github repository
 
-> Note: This repository is still under construction, some files may therefore still miss
-
 This is the Github repository of the following Conference paper: **R. Petitpierre, F. Kaplan, and I. di Lenardo, *Generic Semantic Segmentation of Historical Maps*, Proceedings of the Workshop on Computational Humanities Research (CHR 2021), November 17-19, 2021, Amsterdam (NL)**
 
 ```
@@ -22,14 +20,12 @@ Research in automatic map processing is largely focused on homogeneous corpora o
 
 Keywords: *historical map processing, neural networks, semantic segmentation, figuration, topology*
 
-# Description of the code
-> Note: This repository is still under construction, some files may therefore still miss
-### Operationalization of the figuration
- - **OperationalizeFiguration.ipynb**: This Jupyter notebook allows to compute the κ-coefficient, which describes the figurative diversity of a corpus of maps.
- - **tsneProjection.ipynb**: This Jupyter notebook allows to reproduce the t-SNE projection of the descriptive features of the figuration.
-
-### Experiments
- - **PhaseOutVisualChar.ipynb**: This Jupyter notebook allows to reproduce the pre-processing for the experiment on the importance of graphical cues for learning.
+# Description of the code structure
+ - **OperationalizeFiguration.ipynb**: This Jupyter notebook allows to compute the κ-coefficient, which describes the figurative diversity of a corpus of maps
+ - **tsneProjection.ipynb**: This Jupyter notebook allows to reproduce the t-SNE projection of the descriptive features of the figuration
+ - **textureRemoval.ipynb**: This notebook allows to pre-process the image patches, for the experiment on the importance of graphical cues for learning
+ - **utils/descriptors.py**: This script contains the functions needed to calculate the figurative features and therefore run the notebooks
+ - **export**: This folder contains the pre-computed features for the two datasets (Paris and World) and the 3 comparison datasets (Napoleonic cadastre, ICDAR2021, and USGS)
 
 ### Utils
  - This folder contains some custom Python functions used in the above notebooks.
@@ -46,8 +42,8 @@ The World and the Paris datasets (*Historical City Maps Semantic Segmentation Da
   author    = {Petitpierre, R{\'{e}}mi},
   title     = {Historical City Maps Semantic Segmentation Dataset},
   year      = {2021},
-  howpublished = {\url{https://zenodo.org/record/5497934}},
-  doi       = {10.5281/zenodo.5497934}
+  howpublished = {\url{https://zenodo.org/record/5513639}},
+  doi       = {10.5281/zenodo.5513639}
 }
 ```
 
