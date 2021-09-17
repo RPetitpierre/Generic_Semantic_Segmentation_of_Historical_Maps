@@ -24,11 +24,12 @@ Keywords: *historical map processing, neural networks, semantic segmentation, fi
  - **OperationalizeFiguration.ipynb**: This Jupyter notebook allows to compute the κ-coefficient, which describes the figurative diversity of a corpus of maps
  - **tsneProjection.ipynb**: This Jupyter notebook allows to reproduce the t-SNE projection of the descriptive features of the figuration
  - **textureRemoval.ipynb**: This notebook allows to pre-process the image patches, for the experiment on the importance of graphical cues for learning
- - **utils/descriptors.py**: This script contains the functions needed to calculate the figurative features and therefore run the notebooks
- - **export**: This folder contains the pre-computed features for the two datasets (Paris and World) and the 3 comparison datasets (Napoleonic cadastre, ICDAR2021, and USGS)
 
 ### Utils
- - This folder contains some custom Python functions used in the above notebooks.
+ - **utils/descriptors.py**: This script contains the functions needed to calculate the figurative features and therefore run the notebooks
+
+### Export
+ - **export/*.npy**: This folder contains the pre-computed features for the two datasets (Paris and World) and the 3 comparison datasets (Napoleonic cadastre, ICDAR2021, and USGS)
 
 ## Additional resources
 As mentioned in the article, we used dhSegment-torch for all CNN-based semantic segmentation experiments, training and inference. We invite you to refer to the following Github repository: [dhlab-epfl/dhSegment-torch](https://github.com/dhlab-epfl/dhSegment-torch).
